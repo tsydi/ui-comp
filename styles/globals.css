@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --cursive: 'Kaushan Script', cursive;
+  --sans-serif: 'Quicksand', sans-serif;
+
+  --theme-color-light: #E0F7FA;
+  --theme-color-medium: #B2EBF2;
+  --theme-color-bold: #80DEEA;
+  --theme-color-default: #FAFAFA;
+}
+
+body { font-family: var(--sans-serif);}
+header { background: var(--theme-color-medium); }
+nav { background: var(--theme-color-light); }
+footer { background: var(--theme-color-bold); }
+
+.light { background: var(--theme-color-light); }
+.default { background: var(--theme-color-default); }
+
+.scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
+.scrollbar::-webkit-scrollbar-thumb { background-color: #E0E0E0; border-radius: 20px; }
+.scrollbar::-webkit-scrollbar-track { background-color: #f5f5f5; }

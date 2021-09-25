@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export const MainLayout: React.FC = ({ children }) => {
+export const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Head>
