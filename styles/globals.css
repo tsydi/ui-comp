@@ -12,10 +12,10 @@
 
 body { font-family: var(--sans-serif);}
 header { background: var(--theme-color-medium); }
-nav { background: var(--theme-color-light); }
 footer { background: var(--theme-color-bold); }
 
 .light { background: var(--theme-color-light); }
+.light-border { border-color: var(--theme-color-light); }
 .default { background: var(--theme-color-default); }
 
 .scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
@@ -24,3 +24,6 @@ footer { background: var(--theme-color-bold); }
 
 .active { position: relative; }
 .active::before { background: #333; width: 25%; height: 1px; border-radius: 5px; position: absolute; bottom: -20%; content: ''; }
+
+.translate { transition: all 0.3s ease-in-out; }
+.translate:hover { transform: translateY(-8px); }
